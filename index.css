@@ -1,0 +1,15 @@
+/* 3D card hover effect */
+.card {
+  transition: transform 0.5s, box-shadow 0.5s;
+  perspective: 1000px;
+}
+.card:hover {
+  transform: rotateY(10deg) rotateX(5deg) translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+.hero-img {
+  transition: transform 0.6s;
+}
+.hero-img:hover {
+  transform: scale(1.05) rotateZ(2deg);
+}
